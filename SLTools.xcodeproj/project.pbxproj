@@ -55,7 +55,7 @@
 		B7A17881208C8CC300764968 = {
 			isa = PBXGroup;
 			children = (
-				B7A1788D208C8CC300764968 /* SLTools */,
+				B7A1788D208C8CC300764968 /* Source */,
 				B7A17898208C8CC300764968 /* SLToolsTests */,
 				B7A1788C208C8CC300764968 /* Products */,
 			);
@@ -70,14 +70,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B7A1788D208C8CC300764968 /* SLTools */ = {
+		B7A1788D208C8CC300764968 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				B7A1788E208C8CC300764968 /* SLTools.h */,
 				B7A1788F208C8CC300764968 /* Info.plist */,
 				B7A178A5208C8DA000764968 /* UIColor+Creation.swift */,
 			);
-			path = SLTools;
+			path = Source;
 			sourceTree = "<group>";
 		};
 		B7A17898208C8CC300764968 /* SLToolsTests */ = {
