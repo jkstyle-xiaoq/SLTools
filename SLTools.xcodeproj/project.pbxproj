@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B76EF65B2091B59C0044FFD5 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B76EF6592091B59C0044FFD5 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */; };
+		B76EF65E2091BAD30044FFD5 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65D2091BAD30044FFD5 /* Bundle.swift */; };
 		B7A17895208C8CC300764968 /* SLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A1788B208C8CC300764968 /* SLTools.framework */; };
 		B7A1789C208C8CC300764968 /* SLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A1788E208C8CC300764968 /* SLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7A178A6208C8DA000764968 /* UIColor+Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A178A5208C8DA000764968 /* UIColor+Creation.swift */; };
 		B7A178A8208D6D3B00764968 /* UIColorCreationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A178A7208D6D3B00764968 /* UIColorCreationTests.swift */; };
+		B7C8C4172091C411006B0885 /* StringMD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C4162091C411006B0885 /* StringMD5Tests.m */; };
+		B7C8C41A2091C8BE006B0885 /* NSData+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C8C4182091C8BE006B0885 /* NSData+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7C8C41B2091C8BE006B0885 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C4192091C8BE006B0885 /* NSData+MD5.m */; };
+		B7C8C41D2091D019006B0885 /* NSDataMD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C41C2091D019006B0885 /* NSDataMD5Tests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B76EF6592091B59C0044FFD5 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		B76EF65D2091BAD30044FFD5 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		B7A1788B208C8CC300764968 /* SLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A1788E208C8CC300764968 /* SLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTools.h; sourceTree = "<group>"; };
 		B7A1788F208C8CC300764968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,6 +41,11 @@
 		B7A1789B208C8CC300764968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7A178A5208C8DA000764968 /* UIColor+Creation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Creation.swift"; sourceTree = "<group>"; };
 		B7A178A7208D6D3B00764968 /* UIColorCreationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorCreationTests.swift; sourceTree = "<group>"; };
+		B7C8C4152091C411006B0885 /* SLToolsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLToolsTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		B7C8C4162091C411006B0885 /* StringMD5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringMD5Tests.m; sourceTree = "<group>"; };
+		B7C8C4182091C8BE006B0885 /* NSData+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
+		B7C8C4192091C8BE006B0885 /* NSData+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
+		B7C8C41C2091D019006B0885 /* NSDataMD5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDataMD5Tests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,9 +88,11 @@
 		B7A1788D208C8CC300764968 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B7C8C41E2091D257006B0885 /* Digiest */,
 				B7A1788E208C8CC300764968 /* SLTools.h */,
 				B7A1788F208C8CC300764968 /* Info.plist */,
 				B7A178A5208C8DA000764968 /* UIColor+Creation.swift */,
+				B76EF65D2091BAD30044FFD5 /* Bundle.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -85,8 +102,22 @@
 			children = (
 				B7A1789B208C8CC300764968 /* Info.plist */,
 				B7A178A7208D6D3B00764968 /* UIColorCreationTests.swift */,
+				B7C8C4162091C411006B0885 /* StringMD5Tests.m */,
+				B7C8C4152091C411006B0885 /* SLToolsTests-Bridging-Header.h */,
+				B7C8C41C2091D019006B0885 /* NSDataMD5Tests.m */,
 			);
 			path = SLToolsTests;
+			sourceTree = "<group>";
+		};
+		B7C8C41E2091D257006B0885 /* Digiest */ = {
+			isa = PBXGroup;
+			children = (
+				B7C8C4182091C8BE006B0885 /* NSData+MD5.h */,
+				B7C8C4192091C8BE006B0885 /* NSData+MD5.m */,
+				B76EF6592091B59C0044FFD5 /* NSString+MD5.h */,
+				B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */,
+			);
+			path = Digiest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +128,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A1789C208C8CC300764968 /* SLTools.h in Headers */,
+				B7C8C41A2091C8BE006B0885 /* NSData+MD5.h in Headers */,
+				B76EF65B2091B59C0044FFD5 /* NSString+MD5.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +188,7 @@
 					};
 					B7A17893208C8CC300764968 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -198,7 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */,
+				B76EF65E2091BAD30044FFD5 /* Bundle.swift in Sources */,
 				B7A178A6208C8DA000764968 /* UIColor+Creation.swift in Sources */,
+				B7C8C41B2091C8BE006B0885 /* NSData+MD5.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7A178A8208D6D3B00764968 /* UIColorCreationTests.swift in Sources */,
+				B7C8C41D2091D019006B0885 /* NSDataMD5Tests.m in Sources */,
+				B7C8C4172091C411006B0885 /* StringMD5Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,7 +391,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SLTools/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -379,7 +418,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SLTools/Info.plist;
+				INFOPLIST_FILE = Source/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -398,6 +437,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H7V5YYQL3;
 				INFOPLIST_FILE = SLToolsTests/Info.plist;
@@ -408,6 +448,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkstyle.SLToolsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SLToolsTests/SLToolsTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -417,6 +459,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7H7V5YYQL3;
 				INFOPLIST_FILE = SLToolsTests/Info.plist;
@@ -427,6 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkstyle.SLToolsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SLToolsTests/SLToolsTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

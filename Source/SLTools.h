@@ -16,4 +16,5 @@ FOUNDATION_EXPORT const unsigned char SLToolsVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SLTools/PublicHeader.h>
 
-
+#import <SLTools/NSString+MD5.h>
+#import <SLTools/NSData+MD5.h>
