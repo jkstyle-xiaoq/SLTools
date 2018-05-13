@@ -6,10 +6,27 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		B707A79220A1869200CE9F44 /* UniversalBuild */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B707A79320A1869200CE9F44 /* Build configuration list for PBXAggregateTarget "UniversalBuild" */;
+			buildPhases = (
+				B707A79620A187B500CE9F44 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = UniversalBuild;
+			productName = UniversalBuild;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
+		B707A79820A1AFD600CE9F44 /* Device+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707A79720A1AFD600CE9F44 /* Device+Info.swift */; };
 		B76EF65B2091B59C0044FFD5 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B76EF6592091B59C0044FFD5 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */; };
-		B76EF65E2091BAD30044FFD5 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65D2091BAD30044FFD5 /* Bundle.swift */; };
+		B76EF65E2091BAD30044FFD5 /* Bundle+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */; };
+		B77F7FEA20A853DC001F04A8 /* UIView+Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */; };
+		B77F7FEC20A85575001F04A8 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7FEB20A85575001F04A8 /* UIImage+Color.swift */; };
 		B7A17895208C8CC300764968 /* SLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A1788B208C8CC300764968 /* SLTools.framework */; };
 		B7A1789C208C8CC300764968 /* SLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A1788E208C8CC300764968 /* SLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7A178A6208C8DA000764968 /* UIColor+Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A178A5208C8DA000764968 /* UIColor+Creation.swift */; };
@@ -31,9 +48,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B707A79720A1AFD600CE9F44 /* Device+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+Info.swift"; sourceTree = "<group>"; };
 		B76EF6592091B59C0044FFD5 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
-		B76EF65D2091BAD30044FFD5 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
+		B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Positions.swift"; sourceTree = "<group>"; };
+		B77F7FEB20A85575001F04A8 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
 		B7A1788B208C8CC300764968 /* SLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A1788E208C8CC300764968 /* SLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTools.h; sourceTree = "<group>"; };
 		B7A1788F208C8CC300764968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -92,7 +112,10 @@
 				B7A1788E208C8CC300764968 /* SLTools.h */,
 				B7A1788F208C8CC300764968 /* Info.plist */,
 				B7A178A5208C8DA000764968 /* UIColor+Creation.swift */,
-				B76EF65D2091BAD30044FFD5 /* Bundle.swift */,
+				B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */,
+				B707A79720A1AFD600CE9F44 /* Device+Info.swift */,
+				B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */,
+				B77F7FEB20A85575001F04A8 /* UIImage+Color.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -182,6 +205,9 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = jkstyle;
 				TargetAttributes = {
+					B707A79220A1869200CE9F44 = {
+						CreatedOnToolsVersion = 9.3;
+					};
 					B7A1788A208C8CC300764968 = {
 						CreatedOnToolsVersion = 9.3;
 						LastSwiftMigration = 0930;
@@ -205,6 +231,7 @@
 			projectRoot = "";
 			targets = (
 				B7A1788A208C8CC300764968 /* SLTools */,
+				B707A79220A1869200CE9F44 /* UniversalBuild */,
 				B7A17893208C8CC300764968 /* SLToolsTests */,
 			);
 		};
@@ -227,15 +254,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B707A79620A187B500CE9F44 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Merge Script\n\n# 1\n# Set bash script to exit immediately if any commands fail.\nset -e\n\n# 2\n# Setup some constants for use later on.\nFRAMEWORK_NAME=\"SLTools\"\n\n# 3\n# If remnants from a previous build exist, delete them.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi\n\n# 4\n# Build the framework for device and for simulator (using\n# all needed architectures).\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch arm64 -arch armv7 -arch armv7s only_active_arch=no defines_module=yes -sdk \"iphoneos\"\nxcodebuild -target \"${FRAMEWORK_NAME}\" -configuration Release -arch x86_64 -arch i386 only_active_arch=no defines_module=yes -sdk \"iphonesimulator\"\n\n# 5\n# Remove .framework file if exists on Desktop from previous run.\nif [ -d \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\" ]; then\nrm -rf \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\nfi\n\n# 6\n# Copy the device version of framework to Desktop.\ncp -r \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework\"\n\n# 7\n# Replace the framework executable within the framework with\n# a new version created by merging the device and simulator\n# frameworks' executables with lipo.\nlipo -create -output \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphoneos/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\" \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/${FRAMEWORK_NAME}\"\n\n# 8\n# Copy the Swift module mappings for the simulator into the\n# framework.  The device mappings already exist from step 6.\ncp -r \"${SRCROOT}/build/Release-iphonesimulator/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule/\" \"${HOME}/Desktop/${FRAMEWORK_NAME}.framework/Modules/${FRAMEWORK_NAME}.swiftmodule\"\n\n# 9\n# Delete the most recent build.\nif [ -d \"${SRCROOT}/build\" ]; then\nrm -rf \"${SRCROOT}/build\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B7A17886208C8CC300764968 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */,
-				B76EF65E2091BAD30044FFD5 /* Bundle.swift in Sources */,
+				B76EF65E2091BAD30044FFD5 /* Bundle+Info.swift in Sources */,
 				B7A178A6208C8DA000764968 /* UIColor+Creation.swift in Sources */,
+				B707A79820A1AFD600CE9F44 /* Device+Info.swift in Sources */,
 				B7C8C41B2091C8BE006B0885 /* NSData+MD5.m in Sources */,
+				B77F7FEC20A85575001F04A8 /* UIImage+Color.swift in Sources */,
+				B77F7FEA20A853DC001F04A8 /* UIView+Positions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +306,25 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		B707A79420A1869200CE9F44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H7V5YYQL3;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B707A79520A1869200CE9F44 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7H7V5YYQL3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		B7A1789D208C8CC300764968 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -398,6 +463,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jkstyle.SLTools;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -479,6 +545,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B707A79320A1869200CE9F44 /* Build configuration list for PBXAggregateTarget "UniversalBuild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B707A79420A1869200CE9F44 /* Debug */,
+				B707A79520A1869200CE9F44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B7A17885208C8CC300764968 /* Build configuration list for PBXProject "SLTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
