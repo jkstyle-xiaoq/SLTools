@@ -10,7 +10,7 @@ import Foundation
 
 extension Bundle {
     
-    func shortVersion() -> String? {
+    func sl_shortVersion() -> String? {
         if let infoDictionary = self.infoDictionary,
            let version = infoDictionary["CFBundleShortVersionString"] as? String {
             
@@ -19,7 +19,7 @@ extension Bundle {
         return nil
     }
     
-    func bundleVersion() -> String? {
+    func sl_bundleVersion() -> String? {
         if let infoDictionary = self.infoDictionary,
             let version = infoDictionary["CFBundleVersion"] as? String {
             
@@ -28,7 +28,7 @@ extension Bundle {
         return nil
     }
     
-    func bundleID() -> String? {
+    func sl_bundleID() -> String? {
         if let infoDictionary = self.infoDictionary,
             let version = infoDictionary["CFBundleIdentifier"] as? String {
             

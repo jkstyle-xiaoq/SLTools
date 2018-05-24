@@ -22,6 +22,9 @@
 
 /* Begin PBXBuildFile section */
 		B707A79820A1AFD600CE9F44 /* Device+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707A79720A1AFD600CE9F44 /* Device+Info.swift */; };
+		B747B7A520B65A5300129F45 /* UITableView+CellSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */; };
+		B7579F2920B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */; };
+		B7579F2B20B6CE7C0051FAC5 /* UIFont+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2A20B6CE7C0051FAC5 /* UIFont+Attributes.swift */; };
 		B76EF65B2091B59C0044FFD5 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B76EF6592091B59C0044FFD5 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */; };
 		B76EF65E2091BAD30044FFD5 /* Bundle+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */; };
@@ -49,6 +52,9 @@
 
 /* Begin PBXFileReference section */
 		B707A79720A1AFD600CE9F44 /* Device+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+Info.swift"; sourceTree = "<group>"; };
+		B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+CellSubview.swift"; sourceTree = "<group>"; };
+		B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+CellSubview.swift"; sourceTree = "<group>"; };
+		B7579F2A20B6CE7C0051FAC5 /* UIFont+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Attributes.swift"; sourceTree = "<group>"; };
 		B76EF6592091B59C0044FFD5 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
@@ -116,6 +122,9 @@
 				B707A79720A1AFD600CE9F44 /* Device+Info.swift */,
 				B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */,
 				B77F7FEB20A85575001F04A8 /* UIImage+Color.swift */,
+				B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */,
+				B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */,
+				B7579F2A20B6CE7C0051FAC5 /* UIFont+Attributes.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -276,6 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */,
+				B7579F2B20B6CE7C0051FAC5 /* UIFont+Attributes.swift in Sources */,
+				B7579F2920B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift in Sources */,
+				B747B7A520B65A5300129F45 /* UITableView+CellSubview.swift in Sources */,
 				B76EF65E2091BAD30044FFD5 /* Bundle+Info.swift in Sources */,
 				B7A178A6208C8DA000764968 /* UIColor+Creation.swift in Sources */,
 				B707A79820A1AFD600CE9F44 /* Device+Info.swift in Sources */,

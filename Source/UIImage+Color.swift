@@ -11,7 +11,7 @@ import CoreGraphics
 
 extension UIImage {
     
-    class func image(withColor color: UIColor, size: CGSize) -> UIImage? {
+    class func sl_image(withColor color: UIColor, size: CGSize) -> UIImage? {
         UIGraphicsBeginImageContext(size)
         defer {
             UIGraphicsEndImageContext()
@@ -29,7 +29,7 @@ extension UIImage {
         return nil
     }
     
-    func color(atPoint point: CGPoint) -> UIColor? {
+    func sl_color(atPoint point: CGPoint) -> UIColor? {
         let scale = self.scale
         let imageWidth = Int(round(self.size.width * scale))
         let imageHeight = Int(round(self.size.height * scale))

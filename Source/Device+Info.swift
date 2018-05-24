@@ -11,7 +11,7 @@ import UIKit
 extension UIDevice {
     
     // iPhone5,1 iPad2,1 ...
-    func modelName() -> String {
+    func sl_modelName() -> String {
         var un = utsname()
         uname(&un)
         let machineMirror = Mirror(reflecting: un.machine)
