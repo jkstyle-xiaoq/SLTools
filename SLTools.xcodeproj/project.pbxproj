@@ -25,11 +25,13 @@
 		B747B7A520B65A5300129F45 /* UITableView+CellSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */; };
 		B7579F2920B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */; };
 		B7579F2B20B6CE7C0051FAC5 /* UIFont+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2A20B6CE7C0051FAC5 /* UIFont+Attributes.swift */; };
+		B7579F2F20B797A10051FAC5 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */; };
+		B7579F3220B7A7D40051FAC5 /* SLChinaIDParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */; };
+		B7579F3620B800840051FAC5 /* SLChinaIDParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F3520B800840051FAC5 /* SLChinaIDParserTests.swift */; };
 		B76EF65B2091B59C0044FFD5 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B76EF6592091B59C0044FFD5 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */; };
 		B76EF65E2091BAD30044FFD5 /* Bundle+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */; };
 		B77F7FEA20A853DC001F04A8 /* UIView+Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */; };
-		B77F7FEC20A85575001F04A8 /* UIImage+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7FEB20A85575001F04A8 /* UIImage+Color.swift */; };
 		B7A17895208C8CC300764968 /* SLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A1788B208C8CC300764968 /* SLTools.framework */; };
 		B7A1789C208C8CC300764968 /* SLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A1788E208C8CC300764968 /* SLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7A178A6208C8DA000764968 /* UIColor+Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A178A5208C8DA000764968 /* UIColor+Creation.swift */; };
@@ -55,11 +57,13 @@
 		B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+CellSubview.swift"; sourceTree = "<group>"; };
 		B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+CellSubview.swift"; sourceTree = "<group>"; };
 		B7579F2A20B6CE7C0051FAC5 /* UIFont+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Attributes.swift"; sourceTree = "<group>"; };
+		B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLChinaIDParser.swift; sourceTree = "<group>"; };
+		B7579F3520B800840051FAC5 /* SLChinaIDParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLChinaIDParserTests.swift; sourceTree = "<group>"; };
 		B76EF6592091B59C0044FFD5 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
 		B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Positions.swift"; sourceTree = "<group>"; };
-		B77F7FEB20A85575001F04A8 /* UIImage+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Color.swift"; sourceTree = "<group>"; };
 		B7A1788B208C8CC300764968 /* SLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A1788E208C8CC300764968 /* SLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTools.h; sourceTree = "<group>"; };
 		B7A1788F208C8CC300764968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -121,10 +125,11 @@
 				B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */,
 				B707A79720A1AFD600CE9F44 /* Device+Info.swift */,
 				B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */,
-				B77F7FEB20A85575001F04A8 /* UIImage+Color.swift */,
 				B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */,
 				B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */,
 				B7579F2A20B6CE7C0051FAC5 /* UIFont+Attributes.swift */,
+				B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */,
+				B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -137,6 +142,7 @@
 				B7C8C4162091C411006B0885 /* StringMD5Tests.m */,
 				B7C8C4152091C411006B0885 /* SLToolsTests-Bridging-Header.h */,
 				B7C8C41C2091D019006B0885 /* NSDataMD5Tests.m */,
+				B7579F3520B800840051FAC5 /* SLChinaIDParserTests.swift */,
 			);
 			path = SLToolsTests;
 			sourceTree = "<group>";
@@ -286,13 +292,14 @@
 			files = (
 				B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */,
 				B7579F2B20B6CE7C0051FAC5 /* UIFont+Attributes.swift in Sources */,
+				B7579F3220B7A7D40051FAC5 /* SLChinaIDParser.swift in Sources */,
+				B7579F2F20B797A10051FAC5 /* UIImage+Extension.swift in Sources */,
 				B7579F2920B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift in Sources */,
 				B747B7A520B65A5300129F45 /* UITableView+CellSubview.swift in Sources */,
 				B76EF65E2091BAD30044FFD5 /* Bundle+Info.swift in Sources */,
 				B7A178A6208C8DA000764968 /* UIColor+Creation.swift in Sources */,
 				B707A79820A1AFD600CE9F44 /* Device+Info.swift in Sources */,
 				B7C8C41B2091C8BE006B0885 /* NSData+MD5.m in Sources */,
-				B77F7FEC20A85575001F04A8 /* UIImage+Color.swift in Sources */,
 				B77F7FEA20A853DC001F04A8 /* UIView+Positions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7579F3620B800840051FAC5 /* SLChinaIDParserTests.swift in Sources */,
 				B7A178A8208D6D3B00764968 /* UIColorCreationTests.swift in Sources */,
 				B7C8C41D2091D019006B0885 /* NSDataMD5Tests.m in Sources */,
 				B7C8C4172091C411006B0885 /* StringMD5Tests.m in Sources */,

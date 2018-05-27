@@ -26,7 +26,7 @@
     [super tearDown];
 }
 
-- (void)testExample {
+- (void)testStringMD5 {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
     NSString *emptyStringMD5 = [@"" MD5String];
