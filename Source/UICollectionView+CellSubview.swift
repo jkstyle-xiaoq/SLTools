@@ -10,7 +10,7 @@ import UIKit
 
 extension UICollectionView {
 
-    func sl_cell(forCellSubview view: UIView) -> UICollectionViewCell? {
+    @objc public func sl_cell(forCellSubview view: UIView) -> UICollectionViewCell? {
         var cell: UICollectionViewCell? = nil
         var testView: UIView? = view
         repeat {
@@ -24,7 +24,7 @@ extension UICollectionView {
         return cell
     }
     
-    func sl_indexPath(forCellSubview view: UIView) -> IndexPath? {
+    @objc public func sl_indexPath(forCellSubview view: UIView) -> IndexPath? {
         if let cell = self.sl_cell(forCellSubview: view) {
             return self.indexPath(for: cell)
         }

@@ -14,7 +14,7 @@ import CoreGraphics
 extension UIImage {
     
     // 创建一个纯色的图片，颜色为color，大小为size
-    class func sl_image(withColor color: UIColor, size: CGSize) -> UIImage? {
+    @objc public class func sl_image(withColor color: UIColor, size: CGSize) -> UIImage? {
         UIGraphicsBeginImageContext(size)
         defer {
             UIGraphicsEndImageContext()
@@ -33,7 +33,7 @@ extension UIImage {
     }
     
     // 选取图片某个点的颜色
-    func sl_color(atPoint point: CGPoint) -> UIColor? {
+    @objc public func sl_color(atPoint point: CGPoint) -> UIColor? {
         let scale = self.scale
         let imageWidth = Int(round(self.size.width * scale))
         let imageHeight = Int(round(self.size.height * scale))
@@ -71,7 +71,7 @@ extension UIImage {
 // crop
 extension UIImage {
     
-    @objc func sl_crop(toRect rect: CGRect) -> UIImage? {
+    @objc public func sl_crop(toRect rect: CGRect) -> UIImage? {
         let cropRect = CGRect(x: rect.minX * self.scale, y: rect.minY * self.scale, width: rect.width * self.scale, height: rect.height * self.scale)
         if let cgImage = self.cgImage?.cropping(to: cropRect) {
             return UIImage(cgImage: cgImage)
@@ -83,7 +83,7 @@ extension UIImage {
 // render
 extension UIImage {
     // use tintColor to render the image
-    @objc func sl_tint(tintColor: UIColor, mode: CGBlendMode = .darken) -> UIImage {
+    @objc public func sl_tint(tintColor: UIColor, mode: CGBlendMode = .darken) -> UIImage {
         
         return modifiedImage { context, rect in
             // draw black background - workaround to preserve color of partially transparent pixels
@@ -108,7 +108,7 @@ extension UIImage {
     
     // fills the alpha channel of the source image with the given color
     // any color information except to the alpha channel will be ignored
-    func fillAlpha(fillColor: UIColor) -> UIImage {
+    @objc public func fillAlpha(fillColor: UIColor) -> UIImage {
         
         return modifiedImage { context, rect in
             // draw tint color
