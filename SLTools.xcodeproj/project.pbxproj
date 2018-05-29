@@ -43,6 +43,7 @@
 		B7C21A3920BCD79000A7E838 /* ExampleEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C21A3320BCD79000A7E838 /* ExampleEntryCell.swift */; };
 		B7C21A3A20BCD79000A7E838 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C21A3420BCD79000A7E838 /* MainViewController.swift */; };
 		B7C21A3B20BCD79000A7E838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C21A3520BCD79000A7E838 /* AppDelegate.swift */; };
+		B7C21A3D20BCEE2C00A7E838 /* TableCellSubviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C21A3C20BCEE2C00A7E838 /* TableCellSubviewViewController.swift */; };
 		B7C8C4172091C411006B0885 /* StringMD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C4162091C411006B0885 /* StringMD5Tests.m */; };
 		B7C8C41A2091C8BE006B0885 /* NSData+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C8C4182091C8BE006B0885 /* NSData+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7C8C41B2091C8BE006B0885 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C4192091C8BE006B0885 /* NSData+MD5.m */; };
@@ -93,6 +94,7 @@
 		B7C21A3320BCD79000A7E838 /* ExampleEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleEntryCell.swift; sourceTree = "<group>"; };
 		B7C21A3420BCD79000A7E838 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B7C21A3520BCD79000A7E838 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7C21A3C20BCEE2C00A7E838 /* TableCellSubviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellSubviewViewController.swift; sourceTree = "<group>"; };
 		B7C8C4152091C411006B0885 /* SLToolsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLToolsTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B7C8C4162091C411006B0885 /* StringMD5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringMD5Tests.m; sourceTree = "<group>"; };
 		B7C8C4182091C8BE006B0885 /* NSData+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
@@ -213,6 +215,7 @@
 				B7C21A3320BCD79000A7E838 /* ExampleEntryCell.swift */,
 				B7C21A3420BCD79000A7E838 /* MainViewController.swift */,
 				B7C21A3520BCD79000A7E838 /* AppDelegate.swift */,
+				B7C21A3C20BCEE2C00A7E838 /* TableCellSubviewViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -396,6 +399,7 @@
 				B7C21A3B20BCD79000A7E838 /* AppDelegate.swift in Sources */,
 				B7C21A3920BCD79000A7E838 /* ExampleEntryCell.swift in Sources */,
 				B7C21A3A20BCD79000A7E838 /* MainViewController.swift in Sources */,
+				B7C21A3D20BCEE2C00A7E838 /* TableCellSubviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

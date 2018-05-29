@@ -41,7 +41,7 @@ class MainViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        _ = tableView.sl_cell(forCellSubview: tableView)
+        
     }
     
     private func prepareEntries() {
