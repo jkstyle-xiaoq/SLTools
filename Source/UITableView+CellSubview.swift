@@ -10,7 +10,7 @@ import UIKit
 
 extension UITableView {
 
-    func sl_cell(forCellSubview view: UIView) -> UITableViewCell? {
+    @objc public func sl_cell(forCellSubview view: UIView) -> UITableViewCell? {
         var cell: UITableViewCell? = nil
         var testView: UIView? = view
         repeat {
@@ -24,7 +24,7 @@ extension UITableView {
         return cell
     }
     
-    func sl_indexPath(forCellSubview view: UIView) -> IndexPath? {
+    @objc public func sl_indexPath(forCellSubview view: UIView) -> IndexPath? {
         if let cell = self.sl_cell(forCellSubview: view) {
             return self.indexPath(for: cell)
         }

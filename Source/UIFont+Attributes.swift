@@ -18,12 +18,12 @@ extension UIFont {
         }
     }
     
-    var sl_isItalic: Bool {
+    @objc public var sl_isItalic: Bool {
         return fontDescriptor.symbolicTraits.contains(.traitItalic)
     }
     
     // [UltraLight, Thin, Light]
-    var sl_isLight: Bool {
+    @objc public var sl_isLight: Bool {
         if #available(iOS 8.2, *) {
             return sl_weight < UIFont.Weight.regular.rawValue
         } else {
@@ -32,7 +32,7 @@ extension UIFont {
     }
     
     // (Light, Regular, Medium)
-    var sl_isRegular: Bool {
+    @objc public var sl_isRegular: Bool {
         if #available(iOS 8.2, *) {
             return UIFont.Weight.regular.rawValue <= sl_weight && sl_weight < UIFont.Weight.medium.rawValue - 0.1
         } else {
@@ -44,7 +44,7 @@ extension UIFont {
     // WORKAROUND:
     // Rubik-Medium's weight is 0.2 which is smaller than system medium font weight 0.23, that will be replaced by Rubik-Regular on next display pass.
     // Thus give medium a wider range to accommendate Rubik's weight
-    var sl_isMedium: Bool {
+    @objc public var sl_isMedium: Bool {
         if #available(iOS 8.2, *) {
             return UIFont.Weight.medium.rawValue - 0.1 <= sl_weight && sl_weight <= UIFont.Weight.semibold.rawValue
         } else {
@@ -53,7 +53,7 @@ extension UIFont {
     }
     
     // (Semibold, bold, heavy)
-    var sl_isBold: Bool {
+    @objc public var sl_isBold: Bool {
         let bold = fontDescriptor.symbolicTraits.contains(.traitBold)
         if bold {
             return true
@@ -67,7 +67,7 @@ extension UIFont {
     }
     
     // [Heavy, Black]
-    var sl_isBlack: Bool {
+    @objc public var sl_isBlack: Bool {
         if #available(iOS 8.2, *) {
             return UIFont.Weight.heavy.rawValue <= sl_weight/* && weight <= UIFontWeightBlack */
         } else {

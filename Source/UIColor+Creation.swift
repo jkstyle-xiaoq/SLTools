@@ -58,7 +58,7 @@ extension UIColor {
     }
     
     // AABBCCDD e.g.
-    @objc var hexValue: Int {
+    @objc public var hexValue: Int {
         var r: CGFloat = 0.0, g: CGFloat = 0.0, b: CGFloat = 0.0, a: CGFloat = 0.0
         self.getRed(&r, green: &g, blue: &b, alpha: &a)
         let rgb: Int = (Int)(r*255) << 24 | (Int)(g*255) << 16 | (Int)(b*255) << 8 | (Int)(a*255) << 0
@@ -66,7 +66,7 @@ extension UIColor {
     }
     
     // "AABBCCDD" e.g.
-    @objc var hexString: String {
+    @objc public var hexString: String {
         let rgb = self.hexValue
         return String(rgb, radix: 16)
     }

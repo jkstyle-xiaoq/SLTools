@@ -9,19 +9,19 @@
 import UIKit
 
 
-enum ChinaIDCardGeneration: Int {
+@objc public enum ChinaIDCardGeneration: Int {
     case unknown
     case first
     case second
 }
 
-enum ChinaIDCardSex: Int {
+@objc public enum ChinaIDCardSex: Int {
     case unknown
     case male
     case female
 }
 
-enum ChinaIDProvinceType: Int {
+@objc public enum ChinaIDProvinceType: Int {
     case unknown = 0
     case beijing = 11
     case tianjin = 12
@@ -60,35 +60,35 @@ enum ChinaIDProvinceType: Int {
     case guowai = 91
 }
 
-class SLChinaIDParser: NSObject {
+public class SLChinaIDParser: NSObject {
 
-    private(set) var ChinaIDString: String
+    public private(set) var ChinaIDString: String
     
-    private(set) var validIDString = false
+    public private(set) var validIDString = false
     
-    private(set) var generation = ChinaIDCardGeneration.unknown
+    public private(set) var generation = ChinaIDCardGeneration.unknown
     
-    private(set) var provinceCode = 0
-    private(set) var provinceType = ChinaIDProvinceType.unknown
-    private(set) var provinceZhName = ""
-    private(set) var secondAreaCode = 0
-    private(set) var thirdAreaCode = 0
-    private(set) var birthday: Date? = nil
-    private(set) var birthOrder = 0
-    private(set) var sex = ChinaIDCardSex.unknown
+    public private(set) var provinceCode = 0
+    public private(set) var provinceType = ChinaIDProvinceType.unknown
+    public private(set) var provinceZhName = ""
+    public private(set) var secondAreaCode = 0
+    public private(set) var thirdAreaCode = 0
+    public private(set) var birthday: Date? = nil
+    public private(set) var birthOrder = 0
+    public private(set) var sex = ChinaIDCardSex.unknown
     
     private var areaCodeNames = [ChinaIDProvinceType: String]()
     private var R = [Int]()
     private var checker = [Character]()
     
-    init(ChinaIDString: String) {
+    @objc public init(ChinaIDString: String) {
         self.ChinaIDString = ChinaIDString
         super.init()
         self.setUp()
         _ = self.parse(ChinaIDString: ChinaIDString)
     }
     
-    func parse(ChinaIDString: String) -> Bool {
+    @objc public func parse(ChinaIDString: String) -> Bool {
         self.ChinaIDString = ChinaIDString
         self.reset()
         self.doParseIDString(IDString: ChinaIDString)
