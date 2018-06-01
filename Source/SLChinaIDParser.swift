@@ -62,20 +62,20 @@ import UIKit
 
 public class SLChinaIDParser: NSObject {
 
-    public private(set) var ChinaIDString: String
+    @objc public private(set) var ChinaIDString: String
     
-    public private(set) var validIDString = false
+    @objc public private(set) var validIDString = false
     
-    public private(set) var generation = ChinaIDCardGeneration.unknown
+    @objc public private(set) var generation = ChinaIDCardGeneration.unknown
     
-    public private(set) var provinceCode = 0
-    public private(set) var provinceType = ChinaIDProvinceType.unknown
-    public private(set) var provinceZhName = ""
-    public private(set) var secondAreaCode = 0
-    public private(set) var thirdAreaCode = 0
-    public private(set) var birthday: Date? = nil
-    public private(set) var birthOrder = 0
-    public private(set) var sex = ChinaIDCardSex.unknown
+    @objc public private(set) var provinceCode = 0
+    @objc public private(set) var provinceType = ChinaIDProvinceType.unknown
+    @objc public private(set) var provinceZhName = ""
+    @objc public private(set) var secondAreaCode = 0
+    @objc public private(set) var thirdAreaCode = 0
+    @objc public private(set) var birthday: Date? = nil
+    @objc public private(set) var birthOrder = 0
+    @objc public private(set) var sex = ChinaIDCardSex.unknown
     
     private var areaCodeNames = [ChinaIDProvinceType: String]()
     private var R = [Int]()
