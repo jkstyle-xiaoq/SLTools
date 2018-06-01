@@ -25,7 +25,6 @@
 		B747B7A520B65A5300129F45 /* UITableView+CellSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */; };
 		B754CF8420BB959C00A986C5 /* SLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A1788B208C8CC300764968 /* SLTools.framework */; };
 		B7579F2920B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */; };
-		B7579F2B20B6CE7C0051FAC5 /* UIFont+Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2A20B6CE7C0051FAC5 /* UIFont+Attributes.swift */; };
 		B7579F2F20B797A10051FAC5 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */; };
 		B7579F3220B7A7D40051FAC5 /* SLChinaIDParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */; };
 		B7579F3620B800840051FAC5 /* SLChinaIDParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F3520B800840051FAC5 /* SLChinaIDParserTests.swift */; };
@@ -73,7 +72,6 @@
 		B754CF6F20BB957900A986C5 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B754CF7D20BB957A00A986C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+CellSubview.swift"; sourceTree = "<group>"; };
-		B7579F2A20B6CE7C0051FAC5 /* UIFont+Attributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Attributes.swift"; sourceTree = "<group>"; };
 		B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLChinaIDParser.swift; sourceTree = "<group>"; };
 		B7579F3520B800840051FAC5 /* SLChinaIDParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLChinaIDParserTests.swift; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 				B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */,
 				B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */,
 				B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */,
-				B7579F2A20B6CE7C0051FAC5 /* UIFont+Attributes.swift */,
 				B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */,
 				B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */,
 			);
@@ -408,7 +405,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */,
-				B7579F2B20B6CE7C0051FAC5 /* UIFont+Attributes.swift in Sources */,
 				B7579F3220B7A7D40051FAC5 /* SLChinaIDParser.swift in Sources */,
 				B7579F2F20B797A10051FAC5 /* UIImage+Extension.swift in Sources */,
 				B7579F2920B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift in Sources */,
