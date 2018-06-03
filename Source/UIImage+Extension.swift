@@ -10,11 +10,10 @@ import UIKit
 import CoreGraphics
 
 
-// color
+// 创建一个纯色的图片，颜色为color，大小为size
 extension UIImage {
     
-    // 创建一个纯色的图片，颜色为color，大小为size
-    @objc public class func sl_image(withColor color: UIColor, size: CGSize) -> UIImage? {
+    @objc public class func sl_image(withSize size: CGSize, color: UIColor) -> UIImage? {
         UIGraphicsBeginImageContext(size)
         defer {
             UIGraphicsEndImageContext()
@@ -31,8 +30,37 @@ extension UIImage {
         
         return nil
     }
+}
+
+// 创建边框图片
+extension UIImage {
     
-    // 选取图片某个点的颜色
+    @objc public class func sl_image(withSize size: CGSize, fillColor: UIColor, borderWidth: CGFloat, borderColor: UIColor, cornerRadius: CGFloat) -> UIImage? {
+    
+        UIGraphicsBeginImageContextWithOptions(size, false, 0.0)
+        
+        var rect = CGRect(x: 0.0, y: 0.0, width: size.width, height: size.height)
+        rect = rect.insetBy(dx: borderWidth/2.0, dy: borderWidth/2.0)
+        
+        let path = UIBezierPath(roundedRect: rect, cornerRadius: cornerRadius)
+        fillColor.setFill()
+        path.fill()
+        
+        path.lineWidth = borderWidth;
+        borderColor.setStroke()
+        path.stroke()
+        
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        
+        UIGraphicsEndImageContext()
+        
+        return image
+    }
+    
+}
+
+// 选取图片某个点的颜色
+extension UIImage {
     @objc public func sl_color(atPoint point: CGPoint) -> UIColor? {
         let scale = self.scale
         let imageWidth = Int(round(self.size.width * scale))
@@ -68,7 +96,7 @@ extension UIImage {
     }
 }
 
-// crop
+// 截取图片
 extension UIImage {
     
     @objc public func sl_crop(toRect rect: CGRect) -> UIImage? {
