@@ -1,14 +1,14 @@
 //
-//  TableCellSubviewViewController.swift
+//  ViewExtViewController.swift
 //  Examples
 //
-//  Created by kentjia on 2018/5/29.
+//  Created by kentjia on 2018/6/12.
 //  Copyright © 2018 jkstyle. All rights reserved.
 //
 
 import UIKit
 
-class TableCellSubviewViewController: UIViewController {
+class ViewExtViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -21,20 +21,26 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		B707A79820A1AFD600CE9F44 /* Device+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707A79720A1AFD600CE9F44 /* Device+Info.swift */; };
-		B747B7A520B65A5300129F45 /* UITableView+CellSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */; };
+		B707A79820A1AFD600CE9F44 /* Device+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B707A79720A1AFD600CE9F44 /* Device+Extension.swift */; };
+		B747B7A520B65A5300129F45 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B747B7A420B65A5300129F45 /* UITableView+Extension.swift */; };
+		B74FC7A420CFBB8500241AA8 /* BundleExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74FC7A320CFBB8500241AA8 /* BundleExtViewController.swift */; };
+		B74FC7A620CFBB9300241AA8 /* DeviceExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74FC7A520CFBB9300241AA8 /* DeviceExtViewController.swift */; };
+		B74FC7A820CFBBAF00241AA8 /* ViewExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74FC7A720CFBBAF00241AA8 /* ViewExtViewController.swift */; };
+		B74FC7AA20CFC1F500241AA8 /* TableViewExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74FC7A920CFC1F500241AA8 /* TableViewExtViewController.swift */; };
+		B74FC7AC20CFC20600241AA8 /* CellectionViewExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74FC7AB20CFC20600241AA8 /* CellectionViewExtViewController.swift */; };
+		B74FC7AE20CFC21300241AA8 /* ImageExtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74FC7AD20CFC21300241AA8 /* ImageExtViewController.swift */; };
 		B754CF8420BB959C00A986C5 /* SLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A1788B208C8CC300764968 /* SLTools.framework */; };
-		B7579F2920B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */; };
+		B7579F2920B6CDDD0051FAC5 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2820B6CDDD0051FAC5 /* UICollectionView+Extension.swift */; };
 		B7579F2F20B797A10051FAC5 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */; };
 		B7579F3220B7A7D40051FAC5 /* SLChinaIDParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */; };
 		B7579F3620B800840051FAC5 /* SLChinaIDParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F3520B800840051FAC5 /* SLChinaIDParserTests.swift */; };
 		B76EF65B2091B59C0044FFD5 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B76EF6592091B59C0044FFD5 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */; };
-		B76EF65E2091BAD30044FFD5 /* Bundle+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */; };
-		B77F7FEA20A853DC001F04A8 /* UIView+Positions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */; };
+		B76EF65E2091BAD30044FFD5 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65D2091BAD30044FFD5 /* Bundle+Extension.swift */; };
+		B77F7FEA20A853DC001F04A8 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77F7FE920A853DC001F04A8 /* UIView+Extension.swift */; };
 		B7A17895208C8CC300764968 /* SLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A1788B208C8CC300764968 /* SLTools.framework */; };
 		B7A1789C208C8CC300764968 /* SLTools.h in Headers */ = {isa = PBXBuildFile; fileRef = B7A1788E208C8CC300764968 /* SLTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7A178A6208C8DA000764968 /* UIColor+Creation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A178A5208C8DA000764968 /* UIColor+Creation.swift */; };
+		B7A178A6208C8DA000764968 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A178A5208C8DA000764968 /* UIColor+Extension.swift */; };
 		B7A178A8208D6D3B00764968 /* UIColorCreationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A178A7208D6D3B00764968 /* UIColorCreationTests.swift */; };
 		B7C21A3620BCD79000A7E838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C21A2D20BCD79000A7E838 /* Assets.xcassets */; };
 		B7C21A3720BCD79000A7E838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C21A2E20BCD79000A7E838 /* LaunchScreen.storyboard */; };
@@ -42,7 +48,6 @@
 		B7C21A3920BCD79000A7E838 /* ExampleEntryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C21A3320BCD79000A7E838 /* ExampleEntryCell.swift */; };
 		B7C21A3A20BCD79000A7E838 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C21A3420BCD79000A7E838 /* MainViewController.swift */; };
 		B7C21A3B20BCD79000A7E838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C21A3520BCD79000A7E838 /* AppDelegate.swift */; };
-		B7C21A3D20BCEE2C00A7E838 /* TableCellSubviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C21A3C20BCEE2C00A7E838 /* TableCellSubviewViewController.swift */; };
 		B7C8C4172091C411006B0885 /* StringMD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C4162091C411006B0885 /* StringMD5Tests.m */; };
 		B7C8C41A2091C8BE006B0885 /* NSData+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C8C4182091C8BE006B0885 /* NSData+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7C8C41B2091C8BE006B0885 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C4192091C8BE006B0885 /* NSData+MD5.m */; };
@@ -67,24 +72,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B707A79720A1AFD600CE9F44 /* Device+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+Info.swift"; sourceTree = "<group>"; };
-		B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+CellSubview.swift"; sourceTree = "<group>"; };
+		B707A79720A1AFD600CE9F44 /* Device+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+Extension.swift"; sourceTree = "<group>"; };
+		B747B7A420B65A5300129F45 /* UITableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		B74FC7A320CFBB8500241AA8 /* BundleExtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BundleExtViewController.swift; sourceTree = "<group>"; };
+		B74FC7A520CFBB9300241AA8 /* DeviceExtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceExtViewController.swift; sourceTree = "<group>"; };
+		B74FC7A720CFBBAF00241AA8 /* ViewExtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtViewController.swift; sourceTree = "<group>"; };
+		B74FC7A920CFC1F500241AA8 /* TableViewExtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewExtViewController.swift; sourceTree = "<group>"; };
+		B74FC7AB20CFC20600241AA8 /* CellectionViewExtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellectionViewExtViewController.swift; sourceTree = "<group>"; };
+		B74FC7AD20CFC21300241AA8 /* ImageExtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtViewController.swift; sourceTree = "<group>"; };
 		B754CF6F20BB957900A986C5 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B754CF7D20BB957A00A986C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+CellSubview.swift"; sourceTree = "<group>"; };
+		B7579F2820B6CDDD0051FAC5 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
 		B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLChinaIDParser.swift; sourceTree = "<group>"; };
 		B7579F3520B800840051FAC5 /* SLChinaIDParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLChinaIDParserTests.swift; sourceTree = "<group>"; };
 		B76EF6592091B59C0044FFD5 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
-		B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
-		B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Positions.swift"; sourceTree = "<group>"; };
+		B76EF65D2091BAD30044FFD5 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
+		B77F7FE920A853DC001F04A8 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		B7A1788B208C8CC300764968 /* SLTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SLTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A1788E208C8CC300764968 /* SLTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SLTools.h; sourceTree = "<group>"; };
 		B7A1788F208C8CC300764968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7A17894208C8CC300764968 /* SLToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7A1789B208C8CC300764968 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B7A178A5208C8DA000764968 /* UIColor+Creation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Creation.swift"; sourceTree = "<group>"; };
+		B7A178A5208C8DA000764968 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		B7A178A7208D6D3B00764968 /* UIColorCreationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorCreationTests.swift; sourceTree = "<group>"; };
 		B7C21A2D20BCD79000A7E838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B7C21A2F20BCD79000A7E838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -92,7 +103,6 @@
 		B7C21A3320BCD79000A7E838 /* ExampleEntryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleEntryCell.swift; sourceTree = "<group>"; };
 		B7C21A3420BCD79000A7E838 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B7C21A3520BCD79000A7E838 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B7C21A3C20BCEE2C00A7E838 /* TableCellSubviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellSubviewViewController.swift; sourceTree = "<group>"; };
 		B7C8C4152091C411006B0885 /* SLToolsTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SLToolsTests-Bridging-Header.h"; sourceTree = "<group>"; };
 		B7C8C4162091C411006B0885 /* StringMD5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StringMD5Tests.m; sourceTree = "<group>"; };
 		B7C8C4182091C8BE006B0885 /* NSData+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
@@ -127,6 +137,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B74FC7A220CFBAB600241AA8 /* ExampleViews */ = {
+			isa = PBXGroup;
+			children = (
+				B74FC7A320CFBB8500241AA8 /* BundleExtViewController.swift */,
+				B74FC7AB20CFC20600241AA8 /* CellectionViewExtViewController.swift */,
+				B74FC7A520CFBB9300241AA8 /* DeviceExtViewController.swift */,
+				B74FC7AD20CFC21300241AA8 /* ImageExtViewController.swift */,
+				B74FC7A920CFC1F500241AA8 /* TableViewExtViewController.swift */,
+				B74FC7A720CFBBAF00241AA8 /* ViewExtViewController.swift */,
+			);
+			path = ExampleViews;
+			sourceTree = "<group>";
+		};
 		B754CF7020BB957900A986C5 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
@@ -171,12 +194,12 @@
 				B7C8C41E2091D257006B0885 /* Digiest */,
 				B7A1788E208C8CC300764968 /* SLTools.h */,
 				B7A1788F208C8CC300764968 /* Info.plist */,
-				B7A178A5208C8DA000764968 /* UIColor+Creation.swift */,
-				B76EF65D2091BAD30044FFD5 /* Bundle+Info.swift */,
-				B707A79720A1AFD600CE9F44 /* Device+Info.swift */,
-				B77F7FE920A853DC001F04A8 /* UIView+Positions.swift */,
-				B747B7A420B65A5300129F45 /* UITableView+CellSubview.swift */,
-				B7579F2820B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift */,
+				B7A178A5208C8DA000764968 /* UIColor+Extension.swift */,
+				B76EF65D2091BAD30044FFD5 /* Bundle+Extension.swift */,
+				B707A79720A1AFD600CE9F44 /* Device+Extension.swift */,
+				B77F7FE920A853DC001F04A8 /* UIView+Extension.swift */,
+				B747B7A420B65A5300129F45 /* UITableView+Extension.swift */,
+				B7579F2820B6CDDD0051FAC5 /* UICollectionView+Extension.swift */,
 				B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */,
 				B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */,
 			);
@@ -209,10 +232,10 @@
 		B7C21A3220BCD79000A7E838 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				B74FC7A220CFBAB600241AA8 /* ExampleViews */,
 				B7C21A3320BCD79000A7E838 /* ExampleEntryCell.swift */,
 				B7C21A3420BCD79000A7E838 /* MainViewController.swift */,
 				B7C21A3520BCD79000A7E838 /* AppDelegate.swift */,
-				B7C21A3C20BCEE2C00A7E838 /* TableCellSubviewViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -394,9 +417,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C21A3B20BCD79000A7E838 /* AppDelegate.swift in Sources */,
+				B74FC7A820CFBBAF00241AA8 /* ViewExtViewController.swift in Sources */,
+				B74FC7AA20CFC1F500241AA8 /* TableViewExtViewController.swift in Sources */,
+				B74FC7A620CFBB9300241AA8 /* DeviceExtViewController.swift in Sources */,
 				B7C21A3920BCD79000A7E838 /* ExampleEntryCell.swift in Sources */,
+				B74FC7AC20CFC20600241AA8 /* CellectionViewExtViewController.swift in Sources */,
+				B74FC7AE20CFC21300241AA8 /* ImageExtViewController.swift in Sources */,
+				B74FC7A420CFBB8500241AA8 /* BundleExtViewController.swift in Sources */,
 				B7C21A3A20BCD79000A7E838 /* MainViewController.swift in Sources */,
-				B7C21A3D20BCEE2C00A7E838 /* TableCellSubviewViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,13 +435,13 @@
 				B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */,
 				B7579F3220B7A7D40051FAC5 /* SLChinaIDParser.swift in Sources */,
 				B7579F2F20B797A10051FAC5 /* UIImage+Extension.swift in Sources */,
-				B7579F2920B6CDDD0051FAC5 /* UICollectionView+CellSubview.swift in Sources */,
-				B747B7A520B65A5300129F45 /* UITableView+CellSubview.swift in Sources */,
-				B76EF65E2091BAD30044FFD5 /* Bundle+Info.swift in Sources */,
-				B7A178A6208C8DA000764968 /* UIColor+Creation.swift in Sources */,
-				B707A79820A1AFD600CE9F44 /* Device+Info.swift in Sources */,
+				B7579F2920B6CDDD0051FAC5 /* UICollectionView+Extension.swift in Sources */,
+				B747B7A520B65A5300129F45 /* UITableView+Extension.swift in Sources */,
+				B76EF65E2091BAD30044FFD5 /* Bundle+Extension.swift in Sources */,
+				B7A178A6208C8DA000764968 /* UIColor+Extension.swift in Sources */,
+				B707A79820A1AFD600CE9F44 /* Device+Extension.swift in Sources */,
 				B7C8C41B2091C8BE006B0885 /* NSData+MD5.m in Sources */,
-				B77F7FEA20A853DC001F04A8 /* UIView+Positions.swift in Sources */,
+				B77F7FEA20A853DC001F04A8 /* UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

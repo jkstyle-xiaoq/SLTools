@@ -1,5 +1,5 @@
 //
-//  UITableView+CellSubview.swift
+//  UICollectionView+CellSubview.swift
 //  SLTools
 //
 //  Created by kentjia on 2018/5/24.
@@ -8,20 +8,19 @@
 
 import UIKit
 
-extension UITableView {
+extension UICollectionView {
 
-    @objc public func sl_cell(forCellSubview view: UIView) -> UITableViewCell? {
-        var cell: UITableViewCell? = nil
+    @objc public func sl_cell(forCellSubview view: UIView) -> UICollectionViewCell? {
         var testView: UIView? = view
         repeat {
-            if testView is UITableViewCell {
-                cell = testView as? UITableViewCell
+            if let cell = testView as? UICollectionViewCell {
+                return cell
             } else {
                 testView = testView?.superview
             }
         } while testView != nil
         
-        return cell
+        return nil
     }
     
     @objc public func sl_indexPath(forCellSubview view: UIView) -> IndexPath? {

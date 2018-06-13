@@ -13,8 +13,8 @@ import CoreGraphics
 // 创建一个纯色的图片，颜色为color，大小为size
 extension UIImage {
     
-    @objc public class func sl_image(withSize size: CGSize, color: UIColor) -> UIImage? {
-        UIGraphicsBeginImageContext(size)
+    @objc public class func sl_image(withColor color: UIColor, size: CGSize, opaque: Bool = false, scale: CGFloat = 0.0) -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(size, opaque, scale)
         defer {
             UIGraphicsEndImageContext()
         }
@@ -35,9 +35,9 @@ extension UIImage {
 // 创建边框图片
 extension UIImage {
     
-    @objc public class func sl_image(withSize size: CGSize, fillColor: UIColor, borderWidth: CGFloat, borderColor: UIColor, cornerRadius: CGFloat) -> UIImage? {
+    @objc public class func sl_image(fillColor: UIColor, borderColor: UIColor, borderWidth: CGFloat, size: CGSize, opaque: Bool = false, scale: CGFloat = 0.0, cornerRadius: CGFloat = 0.0) -> UIImage? {
     
-        UIGraphicsBeginImageContextWithOptions(size, false, 0.0)
+        UIGraphicsBeginImageContextWithOptions(size, opaque, scale)
         
         var rect = CGRect(x: 0.0, y: 0.0, width: size.width, height: size.height)
         rect = rect.insetBy(dx: borderWidth/2.0, dy: borderWidth/2.0)
