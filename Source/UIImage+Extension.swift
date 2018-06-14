@@ -103,7 +103,7 @@ extension UIImage {
     @objc public func sl_crop(toRect rect: CGRect) -> UIImage? {
         let cropRect = CGRect(x: rect.minX * self.scale, y: rect.minY * self.scale, width: rect.width * self.scale, height: rect.height * self.scale)
         if let cgImage = self.cgImage?.cropping(to: cropRect) {
-            return UIImage(cgImage: cgImage)
+            return UIImage(cgImage: cgImage, scale: self.scale, orientation: self.imageOrientation)
         }
         return nil;
     }

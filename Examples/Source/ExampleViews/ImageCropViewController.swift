@@ -39,8 +39,7 @@ class ImageCropViewController: UIViewController {
                 
                 let rect = CGRect(startPoint: start, endPoint: end)
                 if let croppedImage = image.sl_crop(toRect: rect) {
-                    let theImage = UIImage(cgImage: croppedImage.cgImage!, scale: image.scale, orientation: image.imageOrientation)
-                    self.imageView2.image = theImage
+                    self.imageView2.image = croppedImage
                 }
                 
                 self.startPoint = nil

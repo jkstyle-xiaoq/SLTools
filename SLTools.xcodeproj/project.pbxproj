@@ -151,11 +151,11 @@
 				B74FC7A320CFBB8500241AA8 /* BundleExtViewController.swift */,
 				B74FC7AB20CFC20600241AA8 /* CellectionViewExtViewController.swift */,
 				B74FC7A520CFBB9300241AA8 /* DeviceExtViewController.swift */,
+				B76E2BED20D271BD00253E64 /* ImageCropViewController.swift */,
 				B74FC7AD20CFC21300241AA8 /* ImageExtViewController.swift */,
+				B76E2BEB20D2697800253E64 /* ImagePickColorViewController.swift */,
 				B74FC7A920CFC1F500241AA8 /* TableViewExtViewController.swift */,
 				B74FC7A720CFBBAF00241AA8 /* ViewExtViewController.swift */,
-				B76E2BEB20D2697800253E64 /* ImagePickColorViewController.swift */,
-				B76E2BED20D271BD00253E64 /* ImageCropViewController.swift */,
 			);
 			path = ExampleViews;
 			sourceTree = "<group>";
@@ -201,18 +201,18 @@
 		B7A1788D208C8CC300764968 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				B7C8C41E2091D257006B0885 /* Digiest */,
-				B7A1788E208C8CC300764968 /* SLTools.h */,
-				B7A1788F208C8CC300764968 /* Info.plist */,
-				B7A178A5208C8DA000764968 /* UIColor+Extension.swift */,
 				B76EF65D2091BAD30044FFD5 /* Bundle+Extension.swift */,
-				B707A79720A1AFD600CE9F44 /* Device+Extension.swift */,
-				B77F7FE920A853DC001F04A8 /* UIView+Extension.swift */,
-				B747B7A420B65A5300129F45 /* UITableView+Extension.swift */,
-				B7579F2820B6CDDD0051FAC5 /* UICollectionView+Extension.swift */,
-				B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */,
-				B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */,
 				B76E2BEF20D27CCD00253E64 /* CGRect+Extension.swift */,
+				B707A79720A1AFD600CE9F44 /* Device+Extension.swift */,
+				B7C8C41E2091D257006B0885 /* Digiest */,
+				B7A1788F208C8CC300764968 /* Info.plist */,
+				B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */,
+				B7A1788E208C8CC300764968 /* SLTools.h */,
+				B7579F2820B6CDDD0051FAC5 /* UICollectionView+Extension.swift */,
+				B7A178A5208C8DA000764968 /* UIColor+Extension.swift */,
+				B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */,
+				B747B7A420B65A5300129F45 /* UITableView+Extension.swift */,
+				B77F7FE920A853DC001F04A8 /* UIView+Extension.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
