@@ -43,10 +43,11 @@ extension UIImage {
         rect = rect.insetBy(dx: borderWidth/2.0, dy: borderWidth/2.0)
         
         let path = UIBezierPath(roundedRect: rect, cornerRadius: cornerRadius)
+        path.lineWidth = borderWidth
+        
         fillColor.setFill()
         path.fill()
         
-        path.lineWidth = borderWidth;
         borderColor.setStroke()
         path.stroke()
         
@@ -136,7 +137,7 @@ extension UIImage {
     
     // fills the alpha channel of the source image with the given color
     // any color information except to the alpha channel will be ignored
-    @objc public func fillAlpha(fillColor: UIColor) -> UIImage {
+    @objc public func sl_fillAlpha(fillColor: UIColor) -> UIImage {
         
         return modifiedImage { context, rect in
             // draw tint color

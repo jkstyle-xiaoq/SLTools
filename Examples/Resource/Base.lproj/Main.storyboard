@@ -148,8 +148,8 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Extension" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smq-ec-Q52">
-                                                    <rect key="frame" x="16" y="11" width="126" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Extension Creation" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="smq-ec-Q52">
+                                                    <rect key="frame" x="16" y="11" width="195" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -163,6 +163,54 @@
                                         </tableViewCellContentView>
                                         <connections>
                                             <segue destination="THs-Nx-cG8" kind="show" id="OJi-0N-NvC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExampleEntryCell" id="a2q-51-qyJ" customClass="ExampleEntryCell" customModule="Examples" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="264" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="a2q-51-qyJ" id="fJe-dE-SIg">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Extension Pick Color" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEy-5v-BMo">
+                                                    <rect key="frame" x="16" y="11" width="208" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="nEy-5v-BMo" firstAttribute="centerY" secondItem="fJe-dE-SIg" secondAttribute="centerY" id="RBe-OR-gOs"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nEy-5v-BMo" secondAttribute="trailingMargin" id="fAx-dp-qCV"/>
+                                                <constraint firstItem="nEy-5v-BMo" firstAttribute="leading" secondItem="fJe-dE-SIg" secondAttribute="leadingMargin" id="wE8-lS-flx"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="e5R-Ox-IIb" kind="show" id="hZx-de-Roh"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ExampleEntryCell" id="2NS-6D-Qkf" customClass="ExampleEntryCell" customModule="Examples" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="308" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="2NS-6D-Qkf" id="HIr-cm-hfK">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Image Extension Crop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZPO-JO-OPA">
+                                                    <rect key="frame" x="16" y="11" width="168" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="ZPO-JO-OPA" firstAttribute="leading" secondItem="HIr-cm-hfK" secondAttribute="leadingMargin" id="9eX-Zn-YYW"/>
+                                                <constraint firstItem="ZPO-JO-OPA" firstAttribute="centerY" secondItem="HIr-cm-hfK" secondAttribute="centerY" id="OrC-P8-aPQ"/>
+                                                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZPO-JO-OPA" secondAttribute="trailingMargin" id="eqW-DE-GzC"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="aEG-rH-WPj" kind="show" id="nqF-t7-zMf"/>
                                         </connections>
                                     </tableViewCell>
                                 </cells>
@@ -497,6 +545,112 @@
             </objects>
             <point key="canvasLocation" x="529" y="842"/>
         </scene>
+        <!--Image Crop View Controller-->
+        <scene sceneID="40p-E0-19Y">
+            <objects>
+                <viewController id="aEG-rH-WPj" customClass="ImageCropViewController" customModule="Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PtQ-kd-oYo"/>
+                        <viewControllerLayoutGuide type="bottom" id="gyy-KJ-fzM"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7gN-RK-c1S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ufc-fight.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iav-Pd-UKP">
+                                <rect key="frame" x="16" y="72" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="Egi-ll-hRe"/>
+                                    <constraint firstAttribute="height" constant="200" id="M19-WJ-0Wx"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T4N-nl-3KN">
+                                <rect key="frame" x="16" y="305" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6GX-Og-xfW">
+                                <rect key="frame" x="16" y="352" width="343" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="R8i-RD-CZb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGy-Iv-aW8">
+                                <rect key="frame" x="328" y="305" width="31" height="30"/>
+                                <state key="normal" title="截图"/>
+                                <connections>
+                                    <action selector="crop:" destination="aEG-rH-WPj" eventType="touchUpInside" id="zVz-yV-LTg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6GX-Og-xfW" firstAttribute="leading" secondItem="7gN-RK-c1S" secondAttribute="leadingMargin" id="FkL-TB-exC"/>
+                            <constraint firstItem="iav-Pd-UKP" firstAttribute="top" secondItem="PtQ-kd-oYo" secondAttribute="bottom" constant="8" id="Fxq-eF-L3u"/>
+                            <constraint firstItem="uGy-Iv-aW8" firstAttribute="trailing" secondItem="7gN-RK-c1S" secondAttribute="trailingMargin" id="G7D-id-dEC"/>
+                            <constraint firstItem="T4N-nl-3KN" firstAttribute="leading" secondItem="7gN-RK-c1S" secondAttribute="leadingMargin" id="MQh-vz-jFE"/>
+                            <constraint firstItem="T4N-nl-3KN" firstAttribute="top" secondItem="iav-Pd-UKP" secondAttribute="bottom" constant="33" id="bvB-MT-DEZ"/>
+                            <constraint firstItem="uGy-Iv-aW8" firstAttribute="top" secondItem="PtQ-kd-oYo" secondAttribute="bottom" constant="241" id="dvD-1g-tLx"/>
+                            <constraint firstItem="6GX-Og-xfW" firstAttribute="trailing" secondItem="7gN-RK-c1S" secondAttribute="trailingMargin" id="nVC-lo-JEf"/>
+                            <constraint firstItem="iav-Pd-UKP" firstAttribute="leading" secondItem="7gN-RK-c1S" secondAttribute="leadingMargin" id="onx-mf-cJK"/>
+                            <constraint firstItem="6GX-Og-xfW" firstAttribute="top" secondItem="T4N-nl-3KN" secondAttribute="bottom" constant="26" id="so6-SP-szH"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView1" destination="iav-Pd-UKP" id="wbs-hc-8pO"/>
+                        <outlet property="imageView2" destination="6GX-Og-xfW" id="OYE-mZ-tOq"/>
+                        <outlet property="infoLabel" destination="T4N-nl-3KN" id="J4K-oJ-dcS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mnl-LC-A3g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1647.2" y="397.15142428785612"/>
+        </scene>
+        <!--Image Pick Color View Controller-->
+        <scene sceneID="Kha-yk-ptL">
+            <objects>
+                <viewController id="e5R-Ox-IIb" customClass="ImagePickColorViewController" customModule="Examples" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C3T-gr-cw1"/>
+                        <viewControllerLayoutGuide type="bottom" id="fbi-uj-kBB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vLv-XO-4cv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ufc-fight.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Aps-Ga-Lem">
+                                <rect key="frame" x="16" y="72" width="300" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="mwF-Mw-ZCb"/>
+                                    <constraint firstAttribute="width" constant="300" id="u4K-0a-rAD"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s4n-Ee-rD7">
+                                <rect key="frame" x="16" y="323" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Aps-Ga-Lem" firstAttribute="top" secondItem="C3T-gr-cw1" secondAttribute="bottom" constant="8" id="fCC-n5-uL7"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="s4n-Ee-rD7" secondAttribute="trailingMargin" id="i33-9d-ndL"/>
+                            <constraint firstItem="s4n-Ee-rD7" firstAttribute="leading" secondItem="vLv-XO-4cv" secondAttribute="leadingMargin" id="mb0-NV-29b"/>
+                            <constraint firstItem="Aps-Ga-Lem" firstAttribute="leading" secondItem="vLv-XO-4cv" secondAttribute="leadingMargin" id="rPn-BS-JmD"/>
+                            <constraint firstItem="s4n-Ee-rD7" firstAttribute="top" secondItem="Aps-Ga-Lem" secondAttribute="bottom" constant="51" id="y5V-ol-mCM"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView1" destination="Aps-Ga-Lem" id="pDM-za-3hL"/>
+                        <outlet property="infoLabel" destination="s4n-Ee-rD7" id="apy-NS-FIf"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e1e-Pa-EWl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1036" y="842"/>
+        </scene>
         <!--Image Ext View Controller-->
         <scene sceneID="nic-e9-N0b">
             <objects>
@@ -643,7 +797,10 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JWR-OE-CIk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-962" y="-53"/>
+            <point key="canvasLocation" x="-903" y="-295"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="ufc-fight.jpg" width="600" height="400"/>
+    </resources>
 </document>

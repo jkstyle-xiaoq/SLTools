@@ -10,6 +10,14 @@ import UIKit
 
 extension UIView {
     
+    @objc public func sl_snapshotImage(afterScreenUpdates: Bool) -> UIImage? {
+        UIGraphicsBeginImageContextWithOptions(self.bounds.size, false, 0.0)
+        self.drawHierarchy(in: self.bounds, afterScreenUpdates: afterScreenUpdates)
+        let image = UIGraphicsGetImageFromCurrentImageContext()
+        UIGraphicsEndImageContext()
+        return image
+    }
+    
     @objc public func sl_setFrameX(_ x: CGFloat) -> UIView {
         var frame = self.frame
         frame.origin.x = x

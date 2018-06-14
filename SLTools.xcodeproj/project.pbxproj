@@ -34,6 +34,10 @@
 		B7579F2F20B797A10051FAC5 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */; };
 		B7579F3220B7A7D40051FAC5 /* SLChinaIDParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */; };
 		B7579F3620B800840051FAC5 /* SLChinaIDParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7579F3520B800840051FAC5 /* SLChinaIDParserTests.swift */; };
+		B76E2BEA20D2685700253E64 /* ufc-fight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B76E2BE920D2685700253E64 /* ufc-fight.jpg */; };
+		B76E2BEC20D2697800253E64 /* ImagePickColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E2BEB20D2697800253E64 /* ImagePickColorViewController.swift */; };
+		B76E2BEE20D271BD00253E64 /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E2BED20D271BD00253E64 /* ImageCropViewController.swift */; };
+		B76E2BF120D27CD500253E64 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E2BEF20D27CCD00253E64 /* CGRect+Extension.swift */; };
 		B76EF65B2091B59C0044FFD5 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B76EF6592091B59C0044FFD5 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */; };
 		B76EF65E2091BAD30044FFD5 /* Bundle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65D2091BAD30044FFD5 /* Bundle+Extension.swift */; };
@@ -86,6 +90,10 @@
 		B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLChinaIDParser.swift; sourceTree = "<group>"; };
 		B7579F3520B800840051FAC5 /* SLChinaIDParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLChinaIDParserTests.swift; sourceTree = "<group>"; };
+		B76E2BE920D2685700253E64 /* ufc-fight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "ufc-fight.jpg"; sourceTree = "<group>"; };
+		B76E2BEB20D2697800253E64 /* ImagePickColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickColorViewController.swift; sourceTree = "<group>"; };
+		B76E2BED20D271BD00253E64 /* ImageCropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropViewController.swift; sourceTree = "<group>"; };
+		B76E2BEF20D27CCD00253E64 /* CGRect+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Extension.swift"; sourceTree = "<group>"; };
 		B76EF6592091B59C0044FFD5 /* NSString+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
 		B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 		B76EF65D2091BAD30044FFD5 /* Bundle+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Extension.swift"; sourceTree = "<group>"; };
@@ -146,6 +154,8 @@
 				B74FC7AD20CFC21300241AA8 /* ImageExtViewController.swift */,
 				B74FC7A920CFC1F500241AA8 /* TableViewExtViewController.swift */,
 				B74FC7A720CFBBAF00241AA8 /* ViewExtViewController.swift */,
+				B76E2BEB20D2697800253E64 /* ImagePickColorViewController.swift */,
+				B76E2BED20D271BD00253E64 /* ImageCropViewController.swift */,
 			);
 			path = ExampleViews;
 			sourceTree = "<group>";
@@ -202,6 +212,7 @@
 				B7579F2820B6CDDD0051FAC5 /* UICollectionView+Extension.swift */,
 				B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */,
 				B7579F3120B7A7D40051FAC5 /* SLChinaIDParser.swift */,
+				B76E2BEF20D27CCD00253E64 /* CGRect+Extension.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -222,6 +233,7 @@
 		B7C21A2C20BCD79000A7E838 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				B76E2BE920D2685700253E64 /* ufc-fight.jpg */,
 				B7C21A2D20BCD79000A7E838 /* Assets.xcassets */,
 				B7C21A2E20BCD79000A7E838 /* LaunchScreen.storyboard */,
 				B7C21A3020BCD79000A7E838 /* Main.storyboard */,
@@ -374,6 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C21A3820BCD79000A7E838 /* Main.storyboard in Resources */,
+				B76E2BEA20D2685700253E64 /* ufc-fight.jpg in Resources */,
 				B7C21A3620BCD79000A7E838 /* Assets.xcassets in Resources */,
 				B7C21A3720BCD79000A7E838 /* LaunchScreen.storyboard in Resources */,
 			);
@@ -417,6 +430,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C21A3B20BCD79000A7E838 /* AppDelegate.swift in Sources */,
+				B76E2BEC20D2697800253E64 /* ImagePickColorViewController.swift in Sources */,
 				B74FC7A820CFBBAF00241AA8 /* ViewExtViewController.swift in Sources */,
 				B74FC7AA20CFC1F500241AA8 /* TableViewExtViewController.swift in Sources */,
 				B74FC7A620CFBB9300241AA8 /* DeviceExtViewController.swift in Sources */,
@@ -425,6 +439,7 @@
 				B74FC7AE20CFC21300241AA8 /* ImageExtViewController.swift in Sources */,
 				B74FC7A420CFBB8500241AA8 /* BundleExtViewController.swift in Sources */,
 				B7C21A3A20BCD79000A7E838 /* MainViewController.swift in Sources */,
+				B76E2BEE20D271BD00253E64 /* ImageCropViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +452,7 @@
 				B7579F2F20B797A10051FAC5 /* UIImage+Extension.swift in Sources */,
 				B7579F2920B6CDDD0051FAC5 /* UICollectionView+Extension.swift in Sources */,
 				B747B7A520B65A5300129F45 /* UITableView+Extension.swift in Sources */,
+				B76E2BF120D27CD500253E64 /* CGRect+Extension.swift in Sources */,
 				B76EF65E2091BAD30044FFD5 /* Bundle+Extension.swift in Sources */,
 				B7A178A6208C8DA000764968 /* UIColor+Extension.swift in Sources */,
 				B707A79820A1AFD600CE9F44 /* Device+Extension.swift in Sources */,
