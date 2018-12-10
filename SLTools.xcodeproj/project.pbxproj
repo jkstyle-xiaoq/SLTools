@@ -58,6 +58,7 @@
 		B7C8C41A2091C8BE006B0885 /* NSData+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B7C8C4182091C8BE006B0885 /* NSData+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7C8C41B2091C8BE006B0885 /* NSData+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C4192091C8BE006B0885 /* NSData+MD5.m */; };
 		B7C8C41D2091D019006B0885 /* NSDataMD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C41C2091D019006B0885 /* NSDataMD5Tests.m */; };
+		B7FF47C221BBAD57007D76FC /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF47C121BBAD57007D76FC /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		B7C8C4182091C8BE006B0885 /* NSData+MD5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+MD5.h"; sourceTree = "<group>"; };
 		B7C8C4192091C8BE006B0885 /* NSData+MD5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+MD5.m"; sourceTree = "<group>"; };
 		B7C8C41C2091D019006B0885 /* NSDataMD5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDataMD5Tests.m; sourceTree = "<group>"; };
+		B7FF47C121BBAD57007D76FC /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 				B7579F2E20B797A10051FAC5 /* UIImage+Extension.swift */,
 				B747B7A420B65A5300129F45 /* UITableView+Extension.swift */,
 				B77F7FE920A853DC001F04A8 /* UIView+Extension.swift */,
+				B7FF47C121BBAD57007D76FC /* String+Extension.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -469,6 +472,7 @@
 				B7579F3220B7A7D40051FAC5 /* SLChinaIDParser.swift in Sources */,
 				B7579F2F20B797A10051FAC5 /* UIImage+Extension.swift in Sources */,
 				B7579F2920B6CDDD0051FAC5 /* UICollectionView+Extension.swift in Sources */,
+				B7FF47C221BBAD57007D76FC /* String+Extension.swift in Sources */,
 				B747B7A520B65A5300129F45 /* UITableView+Extension.swift in Sources */,
 				B76E2BF120D27CD500253E64 /* CGRect+Extension.swift in Sources */,
 				B76EF65E2091BAD30044FFD5 /* Bundle+Extension.swift in Sources */,
