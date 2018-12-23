@@ -38,7 +38,6 @@
 		B76E2BEC20D2697800253E64 /* ImagePickColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E2BEB20D2697800253E64 /* ImagePickColorViewController.swift */; };
 		B76E2BEE20D271BD00253E64 /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E2BED20D271BD00253E64 /* ImageCropViewController.swift */; };
 		B76E2BF120D27CD500253E64 /* CGRect+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76E2BEF20D27CCD00253E64 /* CGRect+Extension.swift */; };
-		B76E2BF220D280DD00253E64 /* SLTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A1788B208C8CC300764968 /* SLTools.framework */; };
 		B76E2BF320D280DD00253E64 /* SLTools.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B7A1788B208C8CC300764968 /* SLTools.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B76EF65B2091B59C0044FFD5 /* NSString+MD5.h in Headers */ = {isa = PBXBuildFile; fileRef = B76EF6592091B59C0044FFD5 /* NSString+MD5.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B76EF65C2091B59C0044FFD5 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B76EF65A2091B59C0044FFD5 /* NSString+MD5.m */; };
@@ -60,6 +59,7 @@
 		B7C8C41D2091D019006B0885 /* NSDataMD5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7C8C41C2091D019006B0885 /* NSDataMD5Tests.m */; };
 		B7FF47C221BBAD57007D76FC /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF47C121BBAD57007D76FC /* String+Extension.swift */; };
 		B7FF47EA21CF3A03007D76FC /* StringBackspaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF47E921CF3A03007D76FC /* StringBackspaceTests.swift */; };
+		B7FF47EC21CF8245007D76FC /* ImageDecompressionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF47EB21CF8245007D76FC /* ImageDecompressionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,6 +136,7 @@
 		B7C8C41C2091D019006B0885 /* NSDataMD5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDataMD5Tests.m; sourceTree = "<group>"; };
 		B7FF47C121BBAD57007D76FC /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		B7FF47E921CF3A03007D76FC /* StringBackspaceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringBackspaceTests.swift; sourceTree = "<group>"; };
+		B7FF47EB21CF8245007D76FC /* ImageDecompressionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDecompressionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +145,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B754CF8420BB959C00A986C5 /* SLTools.framework in Frameworks */,
-				B76E2BF220D280DD00253E64 /* SLTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +177,7 @@
 				B76E2BEB20D2697800253E64 /* ImagePickColorViewController.swift */,
 				B74FC7A920CFC1F500241AA8 /* TableViewExtViewController.swift */,
 				B74FC7A720CFBBAF00241AA8 /* ViewExtViewController.swift */,
+				B7FF47EB21CF8245007D76FC /* ImageDecompressionViewController.swift */,
 			);
 			path = ExampleViews;
 			sourceTree = "<group>";
@@ -364,7 +365,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = jkstyle;
 				TargetAttributes = {
 					B707A79220A1869200CE9F44 = {
@@ -455,6 +456,7 @@
 			files = (
 				B7C21A3B20BCD79000A7E838 /* AppDelegate.swift in Sources */,
 				B76E2BEC20D2697800253E64 /* ImagePickColorViewController.swift in Sources */,
+				B7FF47EC21CF8245007D76FC /* ImageDecompressionViewController.swift in Sources */,
 				B74FC7A820CFBBAF00241AA8 /* ViewExtViewController.swift in Sources */,
 				B74FC7AA20CFC1F500241AA8 /* TableViewExtViewController.swift in Sources */,
 				B74FC7A620CFBB9300241AA8 /* DeviceExtViewController.swift in Sources */,

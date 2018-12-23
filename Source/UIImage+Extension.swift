@@ -172,3 +172,45 @@ extension UIImage {
     }
 }
 
+// decompression
+extension UIImage {
+    
+    @objc public func sl_decompress() -> UIImage {
+        if let images = self.images, images.count > 0 {
+            return self
+        }
+        
+        if let imageRef = self.cgImage {
+            let imageSize = CGSize(width: imageRef.width, height: imageRef.height)
+            let imageRect = CGRect(origin: CGPoint.zero, size: imageSize)
+            
+            let colorSpace = CGColorSpaceCreateDeviceRGB()
+            var bitmapInfo = imageRef.bitmapInfo.rawValue
+            
+            let infoMask = (bitmapInfo & CGBitmapInfo.alphaInfoMask.rawValue)
+            let anyNonAlpha = (infoMask == CGImageAlphaInfo.none.rawValue ||
+                infoMask == CGImageAlphaInfo.noneSkipFirst.rawValue ||
+                infoMask == CGImageAlphaInfo.noneSkipLast.rawValue)
+            // CGBitmapContextCreate doesn't support kCGImageAlphaNone with RGB.
+            // https://developer.apple.com/library/mac/#qa/qa1037/_index.html
+            if infoMask == CGImageAlphaInfo.none.rawValue && colorSpace.numberOfComponents > 1 {
+                // Unset the old alpha info.
+                bitmapInfo &= ~CGBitmapInfo.alphaInfoMask.rawValue
+                bitmapInfo |= CGImageAlphaInfo.noneSkipFirst.rawValue
+            } else if !anyNonAlpha && colorSpace.numberOfComponents == 3 { // Some PNGs tell us they have alpha but only 3 components. Odd.
+                bitmapInfo &= ~CGBitmapInfo.alphaInfoMask.rawValue
+                bitmapInfo |= CGImageAlphaInfo.premultipliedFirst.rawValue
+            }
+            
+            if let context = CGContext(data: nil, width: Int(imageSize.width), height: Int(imageSize.height), bitsPerComponent: imageRef.bitsPerComponent, bytesPerRow: 0, space: colorSpace, bitmapInfo: bitmapInfo) {
+                
+                context.draw(imageRef, in: imageRect)
+                
+                if let makedCGImage = context.makeImage() {
+                    return UIImage(cgImage: makedCGImage, scale: self.scale, orientation: self.imageOrientation)
+                }
+            }
+        }
+        return self
+    }
+}
